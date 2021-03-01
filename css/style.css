@@ -1,0 +1,137 @@
+/* FONT KUMBH SANS --> */ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+body{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #1da8af;
+    background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
+    background-position: top 50vh left 52vw, bottom 40vh right 115vh;
+    background-repeat: no-repeat;
+}
+
+h2{
+    color:  hsl(229, 23%, 23%);
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: hsl(227, 10%, 46%);
+}
+
+span{
+    margin-left: 5px;
+    padding-left: 5px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+
+hr{
+    border-style: dotted none none none;
+    color:  hsl(227, 10%, 46%);
+    margin-top: 20px;
+    position: relative;
+    top: 5px;
+}
+
+p{
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: hsl(227, 10%, 46%);
+}
+
+.card{
+    background-color: #fff;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 440px;
+    border-radius: 25px;
+    box-shadow: 3px 4px 30px hsl(0, 0%, 0%,0.4);
+    order:2;
+}
+
+.victor {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fff;
+    width: 120px;
+    position: relative;
+    top: 100px;
+}
+
+.perfil{
+    margin-top: 120px;
+    letter-spacing: 1px;
+    width: 400px;
+    position: relative;
+}
+
+.informacoes{
+    margin: auto;
+    position: relative;
+    top: 15px;
+}
+
+.follower{
+    display: inline-block;
+    width: 100px;
+  }
+
+.like{
+    display: inline-block;
+    width: 130px;
+}
+
+.foto{
+    display: inline-block;
+    width: 100px;
+}
+
+.atribuição {
+    position: relative;
+    top: 150px;
+}
+
+@media screen and (max-width:768px)(max-width:300px) {
+    body{
+        background-position: top 50vh left 52vw,  bottom 55vh right 30vh;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-position: top 50vh left 52vw, bottom 40vh right 50vh;
+    }
+    .card{
+        width: 350px;
+        height: 500px;
+        padding-bottom: 0px;
+    }
+    h2{
+        margin-right: 20px;
+    }
+    h4{
+        margin-right: 30px;
+    }
+    hr{
+        margin-right: 45px;
+        margin-top: 40px;
+    }
+    .informacoes{
+        margin-right: 30px;
+    }
+}
