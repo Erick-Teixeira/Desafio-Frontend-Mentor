@@ -106,7 +106,7 @@ p{
     top: 150px;
 }
 
-@media screen and (max-width:768px)(max-width:300px) {
+@media screen and (max-width:768px) {
     body{
         background-position: top 50vh left 52vw,  bottom 55vh right 30vh;
     }
